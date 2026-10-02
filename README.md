@@ -63,3 +63,9 @@ Players see an **Update** button.
 `tools/` holds copies of the game's own pack rules (`schema.ts`), registry
 reader (`registry.ts`) and pack tool (`digger-pack.ts`). They run on plain
 Node with no dependencies.
+
+## License
+
+The template (tools, workflow, README) is [MIT No Attribution](LICENSE):
+use it however you like, no credit needed. Your pack itself is under the
+license you put in `pack.json`; the example pack is CC0-1.0.
