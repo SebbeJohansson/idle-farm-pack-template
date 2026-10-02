@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "id": "example-caverns",
+  "name": "Example Caverns",
+  "author": "Idle Farm",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "gameVersions": ">=0.26.0",
+  "biomes": [
+    {
+      "schemaVersion": 1,
+      "id": "stub-7-0",
+      "name": "Echoing Depths",
+      "mood": "old and patient",
+      "palette": "#8c7a4a",
+      "preferredDepth": "shallow",
+      "role": "normal",
+      "blocks": [
+        {
+          "id": "b0-loose-gravel",
+          "name": "Loose Gravel",
+          "visual": {
+            "emoji": "🪨"
+          },
+          "hardness": "soft"
+        },
+        {
+          "id": "b1-soft-soil",
+          "name": "Soft Soil",
+          "visual": {
+            "emoji": "🟫"
+          },
+          "hardness": "soft"
+        },
+        {
+          "id": "b2-slate",
+          "name": "Slate",
+          "visual": {
+            "emoji": "🟦"
+          },
+          "hardness": "medium"
+        },
+        {
+          "id": "b3-clay-wall",
+          "name": "Clay Wall",
+          "visual": {
+            "emoji": "🧱"
+          },
+          "hardness": "medium"
+        }
+      ],
+      "ores": [
+        {
+          "id": "o0-copper",
+          "name": "Copper",
+          "visual": {
+            "emoji": "🟠"
+          },
+          "rarity": "common"
+        },
+        {
+          "id": "o1-sapphire",
+          "name": "Sapphire",
+          "visual": {
+            "emoji": "🔷"
+          },
+          "rarity": "rare"
+        }
+      ],
+      "creatures": [
+        {
+          "id": "c0-bat",
+          "name": "Bat",
+          "visual": {
+            "emoji": "🦇"
+          },
+          "threat": 2,
+          "behavior": "territorial"
+        }
+      ],
+      "harvestables": [
+        {
+          "id": "h0-seed-pod",
+          "name": "Seed Pod",
+          "visual": {
+            "emoji": "🌰"
+          },
+          "kind": "seed"
+        },
+        {
+          "id": "h1-cave-herb",
+          "name": "Cave Herb",
+          "visual": {
+            "emoji": "🌿"
+          },
+          "kind": "seed"
+        }
+      ],
+      "lore": "The echoing depths were never on any map. You are the first to write them down."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "stub-7-1",
+      "name": "Mossy Grottos",
+      "mood": "dry and crackly",
+      "palette": "#4a5a4a",
+      "preferredDepth": "mid",
+      "role": "normal",
+      "blocks": [
+        {
+          "id": "b0-soft-soil",
+          "name": "Soft Soil",
+          "visual": {
+            "emoji": "🟫"
+          },
+          "hardness": "soft"
+        },
+        {
+          "id": "b1-loose-gravel",
+          "name": "Loose Gravel",
+          "visual": {
+            "emoji": "🪨"
+          },
+          "hardness": "soft"
+        },
+        {
+          "id": "b2-old-wood",
+          "name": "Old Wood",
+          "visual": {
+            "emoji": "🪵"
+          },
+          "hardness": "medium"
+        },
+        {
+          "id": "b3-slate",
+          "name": "Slate",
+          "visual": {
+            "emoji": "🟦"
+          },
+          "hardness": "medium"
+        }
+      ],
+      "ores": [
+        {
+          "id": "o0-copper",
+          "name": "Copper",
+          "visual": {
+            "emoji": "🟠"
+          },
+          "rarity": "common"
+        },
+        {
+          "id": "o1-relic",
+          "name": "Relic",
+          "visual": {
+            "emoji": "🏺"
+          },
+          "rarity": "rare"
+        }
+      ],
+      "creatures": [
+        {
+          "id": "c0-bat",
+          "name": "Bat",
+          "visual": {
+            "emoji": "🦇"
+          },
+          "threat": 2,
+          "behavior": "territorial"
+        }
+      ],
+      "harvestables": [
+        {
+          "id": "h0-cave-herb",
+          "name": "Cave Herb",
+          "visual": {
+            "emoji": "🌿"
+          },
+          "kind": "seed"
+        }
+      ],
+      "lore": "The mossy grottos were never on any map. You are the first to write them down."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "stub-7-2",
+      "name": "Forgotten Veins",
+      "mood": "eerie but calm",
+      "palette": "#7a6a7a",
+      "preferredDepth": "any",
+      "role": "normal",
+      "blocks": [
+        {
+          "id": "b0-sand",
+          "name": "Sand",
+          "visual": {
+            "emoji": "🟨"
+          },
+          "hardness": "soft"
+        },
+        {
+          "id": "b1-sand",
+          "name": "Sand",
+          "visual": {
+            "emoji": "🟨"
+          },
+          "hardness": "soft"
+        },
+        {
+          "id": "b2-old-wood",
+          "name": "Old Wood",
+          "visual": {
+            "emoji": "🪵"
+          },
+          "hardness": "medium"
+        },
+        {
+          "id": "b3-rust-rock",
+          "name": "Rust Rock",
+          "visual": {
+            "emoji": "🟧"
+          },
+          "hardness": "medium"
+        }
+      ],
+      "ores": [
+        {
+          "id": "o0-shell",
+          "name": "Shell",
+          "visual": {
+            "emoji": "🐚"
+          },
+          "rarity": "common"
+        },
+        {
+          "id": "o1-amethyst",
+          "name": "Amethyst",
+          "visual": {
+            "emoji": "🔮"
+          },
+          "rarity": "rare"
+        }
+      ],
+      "creatures": [
+        {
+          "id": "c0-scorpion",
+          "name": "Scorpion",
+          "visual": {
+            "emoji": "🦂"
+          },
+          "threat": 3,
+          "behavior": "territorial"
+        }
+      ],
+      "harvestables": [
+        {
+          "id": "h0-odd-mushroom",
+          "name": "Odd Mushroom",
+          "visual": {
+            "emoji": "🍄"
+          },
+          "kind": "seed"
+        },
+        {
+          "id": "h1-black-soil",
+          "name": "Black Soil",
+          "visual": {
+            "emoji": "🟤"
+          },
+          "kind": "soil"
+        }
+      ],
+      "lore": "The forgotten veins were never on any map. You are the first to write them down."
+    }
+  ]
+}

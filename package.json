@@ -1,0 +1,11 @@
+{
+  "name": "idle-farm-pack-template",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "validate": "node tools/digger-pack.ts validate pack.json",
+    "checksum": "node tools/digger-pack.ts checksum pack.json",
+    "entry": "node tools/digger-pack.ts entry pack.json"
+  }
+}
